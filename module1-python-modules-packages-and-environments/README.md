@@ -20,7 +20,7 @@ environment with `pipenv`, installing our dependencies, and making some classes.
 
 ## Assignment
 
-1) Create your own lambdata-yourusername package, as shown in lecture
+1) Create your own lambdata-yourusername package (structure your package the same way it was done in the lecture)  
 2) Implement at least 2 of the following "helper" utility functions:
 
 * Check a dataframe for nulls and return the number of missing values.
