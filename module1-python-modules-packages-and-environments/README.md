@@ -26,7 +26,7 @@ environment with `pipenv`, installing our dependencies, and making some classes.
 * Check a dataframe for nulls and return the number of missing values.
 * Create a Train/Test split function for a dataframe and returns both the Training and Testing sets.  
 * Develop a randomization function that randomizes all of a dataframes cells then returns that randomized dataframe. 
-* Split addresses into three columns (df['city], df['state'], and df['zip']) - you can use regexes to detect the format and pull out important pieces.
+* Split addresses into three columns (df['city'], df['state'], and df['zip']) - you can use regexes to detect the format and pull out important pieces.
 * Return a new column with the full name from a State abbreviation column -> An input of FL would return Florida. 
 * Single function to take a list and dataframe then turn the list into a series and add it to the inputted dataframe as a new column.
 * A 1.5*Interquartile range outlier detection/removal function that gets rid of outlying rows and returns that outlier cleaned dataframe.
