@@ -24,7 +24,7 @@ environment with `pipenv`, installing our dependencies, and making some classes.
 2) Implement at least 2 of the following "helper" utility functions:
 
 * `def null_count(df)`: Check a dataframe for nulls and return the number of missing values.
-* `def train_test_split(df, frac)`: Create a Train/Test split function for a dataframe and returns both the Training and Testing sets.  
+* `def train_test_split(df, frac)`: Create a Train/Test split function for a dataframe and returns both the Training and Testing sets. `Frac` referes to the precent of data you would like to set aside for training. 
 * `def randomize(df)`: Develop a randomization function that randomizes all of a dataframes cells then returns that randomized dataframe. 
 * `def addy_split(add_series)`: Split addresses into three columns (df['city'], df['state'], and df['zip']) - you can use regexes to detect the format and pull out important pieces.
 * `def abbr_2_st(state_series, abbr_2_st=True)`: Return a new column with the full name from a State abbreviation column -> An input of FL would return Florida. This function should also take a boolean (`abbr_2_state`) and when `False` takes full state names and return state abbreviations. -> An input of Florida would return Fl.
