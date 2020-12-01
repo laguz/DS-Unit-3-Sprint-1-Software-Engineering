@@ -36,8 +36,7 @@ First, revisit your code from yesterday - was it stylistic? Run a style check
 to use at least 1 class - remember, be DRY (Don't Repeat Yourself), not WET
 (Write Every Time)!
 
-Then - code review! Pair with another student (PMs will facilitate, especially
-in case of odd numbers), and share your `lambdata` repo with each other. Read
+Then - code review! Pair with another student (organize on your own), and share your `lambdata` repo with each other. Read
 and review their code, and also check that they have published their package to
 test PyPI and that it can be installed and used.
 
