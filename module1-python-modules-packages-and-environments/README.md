@@ -54,7 +54,12 @@ API. If you would like to generate some fake data check out the Faker python pac
 
 Also note - there's a lot more than 2 ideas above. Throughout the week, whenever you have finished the daily assignment baseline, you can always come back and add more functionality to your lambdata (including ideas of your own)!
 
+#### Canvas Turn in
+Please turn in your `helper_functions.py` file to Canvas. 
+
 ## Resources and Stretch Goals
+
+Check out steps 3 to 6 if you would like to attempt a stretch goal. I would recommend trying to figure this out on your own! Remember to check documentation and Google!
 
 The [official Python packaging tutorial](https://packaging.python.org/tutorials/packaging-projects/)
 can help you if you get stuck with the assignment. Make sure to use Test PyPI!
