@@ -39,14 +39,12 @@ environment with `pipenv`, installing our dependencies, and making some classes.
 > !pip install --index-url https://test.pypi.org/simple/ lambdata-yourusername
 > 6) import lambdata_yourusername as lambdata in your notebook, and try it out!
 
-We'll step through in lecture - building and publishing a package requires
-twine, and is generally done with these commands:
+> I suggest using Twine for uploading your pypi packages. 
+> Twine itself can be installed with pipenv install -d twine so it is a
+> development dependency.
 
-python setup.py sdist bdist_wheel (builds the actual package)
-twine upload --repository-url https://test.pypi.org/legacy/ dist/*
-
-twine itself can be installed with pipenv install -d twine so it is a
-development dependency.
+> You might find the command below important in uploading:
+> twine upload --repository-url https://test.pypi.org/legacy/ dist/*
 
 Many of the utility functions can be implemented with the right clever calls
 to pandas, numpy, and other libraries - that's fine! Use those as
