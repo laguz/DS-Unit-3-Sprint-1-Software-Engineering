@@ -32,11 +32,12 @@ environment with `pipenv`, installing our dependencies, and making some classes.
 * `def rm_outlier(df)`: A 1.5*Interquartile range outlier detection/removal function that gets rid of outlying rows and returns that outlier cleaned dataframe.
 * `def split_dates(date_series)`: Function to split dates of format "MM/DD/YYYY" into multiple columns (df['month'], df['day'], df['year']) and then return the same dataframe with those additional columns.
 
-3) Register for a test PyPI account
-4) Publish your package as lambdata-yourusername (to avoid conflicts)
-5) Start a Python notebook, and install your package with
-!pip install --index-url https://test.pypi.org/simple/ lambdata-yourusername
-6) import lambdata_yourusername as lambdata in your notebook, and try it out!
+**STRETCH GOALS:**
+> 3) Register for a test PyPI account
+> 4) Publish your package as lambdata-yourusername (to avoid conflicts)
+> 5) Start a Python notebook, and install your package with
+> !pip install --index-url https://test.pypi.org/simple/ lambdata-yourusername
+> 6) import lambdata_yourusername as lambdata in your notebook, and try it out!
 
 We'll step through in lecture - building and publishing a package requires
 twine, and is generally done with these commands:
