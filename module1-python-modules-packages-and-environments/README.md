@@ -54,7 +54,7 @@ API. If you would like to generate some fake data check out the Faker python pac
 
 Also note - there's a lot more than 2 ideas above. Throughout the week, whenever you have finished the daily assignment baseline, you can always come back and add more functionality to your lambdata (including ideas of your own)!
 
-#### Canvas Turn in
+### Canvas Turn in:
 Please turn in your `helper_functions.py` file to Canvas. 
 
 ## Resources and Stretch Goals
