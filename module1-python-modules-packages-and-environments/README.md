@@ -47,16 +47,16 @@ environment with `pipenv`, installing our dependencies, and making some classes.
 
   > train_test_split(df, frac=0.2)
 
-  > Expected Output (int)  
+  > Expected Output (tuple of two dataframes)  
 
- `| 0           | 1           | 2           | 
- | ----------- | ----------- | ----------- |
- | 3           | 4           | 5           |
+  > | 0           | 1           | 2           | 
+  > | ----------- | ----------- | ----------- |
+  > | 3           | 4           | 5           |
   
- | 0           | 1           | 2           | 
- | ----------- | ----------- | ----------- | 
- | 0           | 1           | 2           |
- | 6           | 7           | 8           |`
+  > | 0           | 1           | 2           | 
+  > | ----------- | ----------- | ----------- | 
+  > | 0           | 1           | 2           |
+  > | 6           | 7           | 8           |
 
 * `def randomize(df, seed)`: Develop a randomization function that randomizes all of a dataframes cells then returns that randomized dataframe. This function should also take a random seed for reproducible randomization.
 
