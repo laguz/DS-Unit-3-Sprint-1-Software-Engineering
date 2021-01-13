@@ -26,11 +26,11 @@ environment with `pipenv`, installing our dependencies, and making some classes.
 * `def null_count(df)`: Check a dataframe for nulls and return the number of missing values.
 
   > Input: 
-  > `| 0           | 1           | 2           |
+  > | 0           | 1           | 2           |
   > | ----------- | ----------- | ----------- |
   > | NaN         | 9           | 10          |
   > | 4           | NaN         | 2           |
-  > | 3           | NaN         | 2           |`
+  > | 3           | NaN         | 2           |
 
   > Expected Output:  
   > `3`
