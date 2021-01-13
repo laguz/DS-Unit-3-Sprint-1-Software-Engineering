@@ -99,11 +99,13 @@ environment with `pipenv`, installing our dependencies, and making some classes.
 * `def abbr_2_st(state_series, abbr_2_st=True)`: Return a new column with the full name from a State abbreviation column -> An input of FL would return Florida. This function should also take a boolean (`abbr_2_state`) and when `False` takes full state names and return state abbreviations. -> An input of Florida would return Fl.
 
   > Example Input (state_series = pd.Series)
+  > | states     |
+  > | ---------- |
   > | Alabama    |
   > | Arizona    |
   > | California |
   > | Delaware   |
-  > | Ohio      |
+  > | Ohio       |
   
   > abbr_2_st(state_series, abbr_2_st=True)
   
