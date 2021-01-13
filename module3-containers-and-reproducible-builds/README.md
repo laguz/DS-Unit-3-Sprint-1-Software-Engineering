@@ -22,7 +22,18 @@ after lecture.
 
 ## Assignment
 
-Install and run code from your `lambdata` package inside a Docker container.
+Mess around with Docker and explore their documentation to learn the power and functionality
+of Docker containers. 
+
+I encourage you to reference the Module 1 assignment and create more 
+helper functions within a Docker container. Create an image from a
+Dockerfile that will download the necessary dependencies for your helper functions and 
+be sure to use a different Operating System than the one you are currently using. 
+
+You should follow this work flow in terms of creation: Dockerfile -> Image -> Container -> helper_functions.py
+
+*Stretch:* 
+If you pushed your package to PyPi try to install and run the code from your `lambdata` package inside a Docker container.
 This is a relatively simple baseline to support the variety of local workflows
 students will have.
 
