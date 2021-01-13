@@ -34,8 +34,11 @@ You should follow this work flow in terms of creation: Dockerfile -> Image -> Co
 
 ***Stretch:***  
 If you pushed your package to PyPi try to install and run the code from your `lambdata` package inside a Docker container.
+
 This is a relatively simple baseline to support the variety of local workflows
 students will have.
+
+On Canvas please turn in your Dockerfile.
 
 ## Resources and Stretch Goals
 
