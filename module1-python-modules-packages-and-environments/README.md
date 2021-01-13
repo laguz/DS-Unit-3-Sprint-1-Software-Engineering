@@ -24,12 +24,12 @@ environment with `pipenv`, installing our dependencies, and making some classes.
 2) Implement at least 2 of the following "helper" utility functions in a `helper_functions.py` module:
 
 * `def null_count(df)`: Check a dataframe for nulls and return the number of missing values.
-> Input: 
-> | 0           | 1           | 2           |
-> | ----------- | ----------- | ----------- |
-> | NaN         | 9           | 10          |
-> | 4           | NaN         | 2           |
-> | 3           | NaN         | 2           |
+  > Input: 
+  > | 0           | 1           | 2           |
+  > | ----------- | ----------- | ----------- |
+  > | NaN         | 9           | 10          |
+  > | 4           | NaN         | 2           |
+  > | 3           | NaN         | 2           |
 
 > Expected Output: 
 > `3` (int)
