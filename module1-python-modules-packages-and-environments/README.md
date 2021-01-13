@@ -50,7 +50,7 @@ environment with `pipenv`, installing our dependencies, and making some classes.
   > Expected Output (int)  
   > | 0           | 1           | 2           | 
   > | ----------- | ----------- | ----------- |
-  > | 3           | 4           | 5           |, 
+  > | 3           | 4           | 5           |  , 
   
   > | 0           | 1           | 2           | 
   > | ----------- | ----------- | ----------- | 
