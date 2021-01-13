@@ -24,6 +24,7 @@ environment with `pipenv`, installing our dependencies, and making some classes.
 2) Implement at least 2 of the following "helper" utility functions in a `helper_functions.py` module:
 
 * `def null_count(df)`: Check a dataframe for nulls and return the number of missing values.
+
   > Input: 
   > | 0           | 1           | 2           |
   > | ----------- | ----------- | ----------- |
@@ -31,8 +32,8 @@ environment with `pipenv`, installing our dependencies, and making some classes.
   > | 4           | NaN         | 2           |
   > | 3           | NaN         | 2           |
 
-> Expected Output: 
-> `3` (int)
+  > Expected Output: 
+  > `3` (int)
 * `def train_test_split(df, frac)`: Create a Train/Test split function for a dataframe and returns both the Training and Testing sets. `Frac` referes to the precent of data you would like to set aside for training.
 > Input: 
 >
