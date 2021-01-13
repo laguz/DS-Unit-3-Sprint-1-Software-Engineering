@@ -25,6 +25,51 @@ environment with `pipenv`, installing our dependencies, and making some classes.
 
 * `def null_count(df)`: Check a dataframe for nulls and return the number of missing values.
 
+  > Example Input (df = pd.DataFrame)
+  > | 0           | 1           | 2           |
+  > | ----------- | ----------- | ----------- |
+  > | NaN         | 9           | 10          |
+  > | 4           | NaN         | 2           |
+  > | 3           | NaN         | 2           |
+  
+  > null_count(df)
+  
+  > Expected Output (int)  
+  > `3`
+* `def train_test_split(df, frac)`: Create a Train/Test split function for a dataframe and returns both the Training and Testing sets. `Frac` referes to the precent of data you would like to set aside for training.
+
+  > Example Input (df = pd.DataFrame)
+  > | 0           | 1           | 2           |
+  > | ----------- | ----------- | ----------- |
+  > | 0           | 1           | 2           |
+  > | 3           | 4           | 5           |
+  > | 6           | 7           | 8           |
+
+  > train_test_split(df, frac=0.2)
+
+  > Expected Output (int)  
+  > | 0           | 1           | 2           | 
+  > | ----------- | ----------- | ----------- |
+  > | 3           | 4           | 5           |, 
+  
+  > | 0           | 1           | 2           | 
+  > | ----------- | ----------- | ----------- | 
+  > | 0           | 1           | 2           |
+  > | 6           | 7           | 8           |
+  
+* `def randomize(df, seed)`: Develop a randomization function that randomizes all of a dataframes cells then returns that randomized dataframe. This function should also take a random seed for reproducible randomization.
+
+  > Example Input (pd.DataFrame)
+  > | 0           | 1           | 2           |
+  > | ----------- | ----------- | ----------- |
+  > | NaN         | 9           | 10          |
+  > | 4           | NaN         | 2           |
+  > | 3           | NaN         | 2           |
+  
+  > Expected Output (int)  
+  > `3`
+* `def addy_split(add_series)`: Split addresses into three columns (df['city'], df['state'], and df['zip']) - you can use regexes to detect the format and pull out important pieces.
+
   > Example Input (pd.DataFrame)
   > | 0           | 1           | 2           |
   > | ----------- | ----------- | ----------- |
@@ -34,38 +79,41 @@ environment with `pipenv`, installing our dependencies, and making some classes.
 
   > Expected Output (int)  
   > `3`
-* `def train_test_split(df, frac)`: Create a Train/Test split function for a dataframe and returns both the Training and Testing sets. `Frac` referes to the precent of data you would like to set aside for training.
-> Input: 
->
->
-> Expected Output:
-* `def randomize(df, seed)`: Develop a randomization function that randomizes all of a dataframes cells then returns that randomized dataframe. This function should also take a random seed for reproducible randomization.
-> Input: 
->
->
-> Expected Output:
-* `def addy_split(add_series)`: Split addresses into three columns (df['city'], df['state'], and df['zip']) - you can use regexes to detect the format and pull out important pieces.
-> Input: 
->
->
-> Expected Output:
 * `def abbr_2_st(state_series, abbr_2_st=True)`: Return a new column with the full name from a State abbreviation column -> An input of FL would return Florida. This function should also take a boolean (`abbr_2_state`) and when `False` takes full state names and return state abbreviations. -> An input of Florida would return Fl.
 
 * `def list_2_series(list_2_series, df)`: Single function to take a list and dataframe then turn the list into a series and add it to the inputted dataframe as a new column.
-> Input: 
->
->
-> Expected Output:
+
+  > Example Input (pd.DataFrame)
+  > | 0           | 1           | 2           |
+  > | ----------- | ----------- | ----------- |
+  > | NaN         | 9           | 10          |
+  > | 4           | NaN         | 2           |
+  > | 3           | NaN         | 2           |
+
+  > Expected Output (int)  
+  > `3`
 * `def rm_outlier(df)`: A 1.5*Interquartile range outlier detection/removal function that gets rid of outlying rows and returns that outlier cleaned dataframe.
-> Input: 
->
->
-> Expected Output:
+
+  > Example Input (pd.DataFrame)
+  > | 0           | 1           | 2           |
+  > | ----------- | ----------- | ----------- |
+  > | NaN         | 9           | 10          |
+  > | 4           | NaN         | 2           |
+  > | 3           | NaN         | 2           |
+
+  > Expected Output (int)  
+  > `3`
 * `def split_dates(date_series)`: Function to split dates of format "MM/DD/YYYY" into multiple columns (df['month'], df['day'], df['year']) and then return the same dataframe with those additional columns.
-> Input: 
->
->
-> Expected Output:
+
+  > Example Input (pd.DataFrame)
+  > | 0           | 1           | 2           |
+  > | ----------- | ----------- | ----------- |
+  > | NaN         | 9           | 10          |
+  > | 4           | NaN         | 2           |
+  > | 3           | NaN         | 2           |
+
+  > Expected Output (int)  
+  > `3`
 
 **STRETCH GOALS:**
 > 3) Register for a test PyPI account
