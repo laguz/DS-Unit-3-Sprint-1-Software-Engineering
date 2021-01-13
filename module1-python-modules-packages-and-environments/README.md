@@ -32,7 +32,7 @@ environment with `pipenv`, installing our dependencies, and making some classes.
   > | 4           | NaN         | 2           |
   > | 3           | NaN         | 2           |
 
-  > Expected Output: 
+  > Expected Output:  
   > `3` (int)
 * `def train_test_split(df, frac)`: Create a Train/Test split function for a dataframe and returns both the Training and Testing sets. `Frac` referes to the precent of data you would like to set aside for training.
 > Input: 
